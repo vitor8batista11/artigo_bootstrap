@@ -152,7 +152,7 @@ simulacao_artigo <- function(distributions = c('normal', 'exponential', 'laplace
 }
 
 simulacao_artigo_pareado <- function(distributions = c('normal', 'exponential', 'laplace', 'uniform', 't'),
-                                     ns = c(5, 20, 100), confidence_levels = c(0.8, 0.95, 0.99),
+                                     ns = c(10, 20, 100), confidence_levels = c(0.8, 0.95, 0.99),
                                      alphas = c(-1, 0, 1), parameters = c('mean', 'sd'),
                                      average, variance = 4, B = 100, B_2 = 100, n_sim = 100, seed = 42){
   
